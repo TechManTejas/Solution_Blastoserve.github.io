@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Problem Statement Blastoserve</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        canvas {
+            border: 0px solid black;
+            background: rgb(0, 139, 139);
+            width: 100vw;
+            height: 100vh;
+        }
+        body {
+            display: flex;
+
+            justify-content: center;
+        }
+
+        div {
+            position: absolute;
+        }
+
+        input {
+            margin-top: 20px;
+        }
+
+        button {
+            padding: 2px;
+            border-radius: 1px;
+        }
+    </style>
+</head>
+
+<body>
+    <canvas></canvas>
+    <div>
+        <input type="number" />
+        <button onclick="addRects()">
+            Click me</button>
+    </div>
+    <script src="./index.js"></script>
+</body>
+
+</html>
